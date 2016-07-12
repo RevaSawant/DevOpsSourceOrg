@@ -5,7 +5,7 @@ public Id InvoiceId {get;set;}
   public String searchValue {get;set;}
   public boolean clickSearch {get;set;}
   
-  public InvoiceController () {
+  public InvoiceController () {       // test comments
   clickSearch =true;
   }   
   public list<Invoice__c> invoiceList{get;set;}
