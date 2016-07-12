@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
 endpointApiVersion=36.0
-endpointEnvironment=Other (Specify)
+endpointEnvironment=Production/Developer Edition
 endpointServer=login.salesforce.com
 httpsProtocol=true
 ideVersion=36.0
