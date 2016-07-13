@@ -24,3 +24,5 @@ sidebar="false" extensions="customizationForMerchandise">
   </apex:form>
   
 </apex:page>
+
+<!--  test comments -->

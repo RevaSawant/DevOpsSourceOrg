@@ -6,12 +6,12 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>com.salesforce.ide.builder.default</name>
+			<name>org.sonarlint.eclipse.core.sonarlintBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>org.sonarlint.eclipse.core.sonarlintBuilder</name>
+			<name>com.salesforce.ide.builder.default</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
