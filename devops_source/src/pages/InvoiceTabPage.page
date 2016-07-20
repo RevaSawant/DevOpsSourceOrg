@@ -13,7 +13,7 @@
                             <apex:param value="{!invoice.id}" assignTo="{!InvoiceId}" name="InvId" /> 
                             </apex:commandLink>
                                           
-                             </apex:column>   
+                             </apex:column>   <!--comments -->
             <apex:column value="{!invoice.Invoice_Total__c}"/> 
             <apex:column value="{!invoice.Status__c}"/> 
             
