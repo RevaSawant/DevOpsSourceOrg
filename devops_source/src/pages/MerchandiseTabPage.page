@@ -26,6 +26,6 @@
         <h2> No Merchandise Found. Please add the Merchandise </h2><br/><br/>
         <apex:commandbutton value="Add Merchandise" action="{!URLFOR($Action.Merchandise__c.New)}" />
         </apex:outputpanel>
-    </apex:pageBlock>
+    </apex:pageBlock>  
     </apex:form>
 </apex:page><!--  Test for build pipeline : reva for demo -->
