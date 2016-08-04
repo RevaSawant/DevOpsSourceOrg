@@ -2,6 +2,8 @@
 
 <apex:form > <!-- Check for demo : REva -->
 
+ Today :: {!currentTime} <br/>
+ 
   <apex:pageBlock >
   <apex:commandbutton value="Back" action="{!BackToHome}" rendered="{!NOT(clickSearch)}"/>&nbsp;&nbsp;&nbsp;
   <apex:inputText value="{!searchValue}"/>&nbsp;&nbsp;&nbsp; 
@@ -31,7 +33,8 @@
            
            
            <apex:outputpanel rendered="{!NOT(clickSearch)}">
-           <h1> Search Results for Invoice</h1>
+          
+           <h1> Search Results for Invoice</h1> 
            <apex:pageBlockTable value="{!searchInvoiceList}" var="searchList">
             <apex:column >
             <apex:outputLink value="{!URLFOR($Action.Invoice__c.View , searchList.Id)}">{!searchList.Name}

@@ -4,9 +4,11 @@ public Id InvoiceId {get;set;}
  public list<Invoice__c> searchInvoiceList{get;set;}
   public String searchValue {get;set;}
   public boolean clickSearch {get;set;}
+  public Datetime currentTime {get;set;}
   
   public InvoiceController () {
   clickSearch =true;
+  currentTime = system.now();
   }   
   public list<Invoice__c> invoiceList{get;set;}
   public list<Line_Item__c> lineItemList{get;set;}
@@ -41,6 +43,5 @@ public Id InvoiceId {get;set;}
     lineItemList = [select id,name,Quantity__c,Line_Item_Total__c,invoice__c from Line_Item__c ];
         return null;
     }
-    
-
+ 
 }
