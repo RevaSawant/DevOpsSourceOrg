@@ -2,7 +2,7 @@
 
 <apex:form > <!-- Check for demo : REva -->
 
- Today :: {!currentTime} <br/>
+ Today test the time for Demo:: :: {!currentTime} <br/> 
  
   <apex:pageBlock >
   <apex:commandbutton value="Back" action="{!BackToHome}" rendered="{!NOT(clickSearch)}"/>&nbsp;&nbsp;&nbsp;
