@@ -4,5 +4,9 @@
         <members>InvoiceTabPage</members>
         <name>ApexPage</name>
     </types>
+     <types>
+        <members>testclass</members>
+        <name>ApexClass</name>
+    </types>
     <version>36.0</version>
 </Package>
