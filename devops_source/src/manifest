@@ -11,3 +11,5 @@ src/classes/testclass.cls-meta.xml
 src/reports/myreports
 src/reports/myreports-meta.xml
 src/reports/myreports/AccountReports.report
+src/pages/InvoiceTabPage.page
+src/pages/InvoiceTabPage.page-meta.xml
