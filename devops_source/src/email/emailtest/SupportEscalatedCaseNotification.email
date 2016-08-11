@@ -4,4 +4,4 @@ Company: {!Account.Name}
 Service Level: {!Account_Service_Level} 
 Product: {!Case.Product__c} 
 Case #: {!Case.CaseNumber} 
-Case Subject: {!Case.Subject}
+Case Subject: {!Case.Subject}  

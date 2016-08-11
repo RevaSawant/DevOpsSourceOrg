@@ -8,3 +8,4 @@
     <subject>ESCALATED CASE {!Case.CaseNumber}</subject>
     <type>text</type>
 </EmailTemplate>
+  

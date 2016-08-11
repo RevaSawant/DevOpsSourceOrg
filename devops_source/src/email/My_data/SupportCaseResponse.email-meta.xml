@@ -8,3 +8,4 @@
     <subject>Response to your Genwatt Case {!Case.CaseNumber}: {!Case.Subject}</subject>
     <type>text</type>
 </EmailTemplate>
+   
