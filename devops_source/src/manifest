@@ -1,4 +1,7 @@
 src/reports/myreports
 src/reports/myreports-meta.xml
 src/reports/myreports/AccountReports.report
-src/reports/myreports/contactreport.report
+src/email/emailtest
+src/email/emailtest-meta.xml
+src/email/emailtest/DemoTestEmail.email
+src/email/emailtest/DemoTestEmail.email-meta.xml
